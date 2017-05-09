@@ -1,0 +1,38 @@
+			.zxcf_yc {
+			position: fixed;
+			right: 0;
+			top: 250px;
+			z-index: 99999;
+			}
+	
+	        ul, li {
+	            list-style-type: none;
+	            list-style-position: inside;
+	        }
+	
+	        .zxcf_yc ul li a {
+	            display: block;
+	            width: 41px;
+	            height: 41px;
+	            transition: 0.2s;
+	            transition-property: all;
+	            transition-duration: 0.2s;
+	            transition-timing-function: ease;
+	            transition-delay: 0s;
+	        }
+	
+	        .zx_a1 {
+	            background: #2294dc url(/p2p/images/QQ.png) no-repeat center center;
+	        }
+	        .zx_a2 {
+	            background: #2294dc url(/p2p/images/group.png) no-repeat center center;
+	        }
+	        .zx_a3 {
+	            background: #2294dc url(/p2p/images/QRcode.png) no-repeat center center;
+	        }
+	        .zx_a4 {
+	            background: #2294dc url(/p2p/images/map.png) no-repeat center center;
+	        }
+	        .zx_a5 {
+	            background: #2294dc url(/p2p/images/award.png) no-repeat center center;
+	        }

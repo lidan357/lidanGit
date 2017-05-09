@@ -1,0 +1,1417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0043)http://www.whzxcf.com/financial-index.shtml -->
+<html xmlns="http://www.w3.org/1999/xhtml"><style type="text/css" id="54449091812"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="baidu-site-verification" content="hN9qyeWx20">
+<meta name="baidu-site-verification" content="1fc1744a879ca4c2b5d2731db47080a9">
+<link href="./realTimeStatistic_files/style.css" rel="stylesheet">
+<link href="./realTimeStatistic_files/newstyle.css" rel="stylesheet">
+
+<script src="./realTimeStatistic_files/hm.js"></script><script type="text/javascript">
+
+
+
+//全局变量
+
+var GV = {
+    DIMAUB: "",
+    JS_ROOT: "/statics/home/js/",
+    TOKEN: "2e8d18965f3906c2dc49429819fc913b_a74eb9748e7e407065be9112ff461d36",
+	THIS_URL:"Financial-",
+	TINVEST_URL:"/invest-showtinvest.shtml",
+	MAIN_DOMAIN:"http://www.whzxcf.com"
+};
+
+</script>
+
+<script src="./realTimeStatistic_files/jquery.js"></script>
+<script src="./realTimeStatistic_files/common.js"></script>
+<!---->
+<script src="./realTimeStatistic_files/highcharts.js"></script>
+
+<script src="./realTimeStatistic_files/jquery.totemticker.js"></script>
+
+
+<!--tipBOx-->
+
+<link type="text/css" rel="stylesheet" href="./realTimeStatistic_files/colorbox.css">
+<link rel="shortcut icon" href="http://www.whzxcf.com/statics/home/images/favicon.ico" type="image/x-icon">
+<script src="./realTimeStatistic_files/jquery.colorbox.js"></script>
+<script>
+$(function(){     
+     $('.cboxPhoto').each(function() {
+         var maxWidth = 800;
+         var maxHeight = 800;
+         var ratio = 0;
+         var width = $(this).width();
+         var height = $(this).height();
+      
+        if(width > maxWidth){
+             ratio = maxWidth / width;
+             $(this).css("width", maxWidth);
+             $(this).css("height", height * ratio);
+             height = height * ratio;
+         }
+         var width = $(this).width();
+         var height = $(this).height();
+         if(height > maxHeight){
+             ratio = maxHeight / height;
+             $(this).css("height", maxHeight);
+             $(this).css("width", width * ratio);
+             width = width * ratio;
+         }
+     });
+})
+</script>
+<!--<script src="/statics/common/tipBox/colorbox-master/jQuery.autoIMG.min.js"></script>
+<style type="text/css">
+#cboxLoadedContent{ width:800px; }
+</style>
+<script type="text/javascript">
+$(function(){
+	$("#cboxLoadedContent").autoIMG();
+});
+</script>-->
+<script src="./realTimeStatistic_files/layer.js"></script><link type="text/css" rel="stylesheet" href="./realTimeStatistic_files/layer.css" id="skinlayercss">
+<script src="./realTimeStatistic_files/common(1).js"></script>
+
+<!--tipBOx-->
+
+
+<title>实时财务-中兴财富</title>
+<meta http-equiv="keywords" content="p2p投资理财,小额投资理财,个人投资理财,网上理财,网络理财,网络投资,互联网投资,家庭理财,存钱理财">
+<meta http-equiv="description" content="中兴财富是武汉知名P2P网络贷款投资理财平台。网上投资理财50元起投,年化收益平均可达17%,29道极致风控工序,100%本息担保,提供安全、高收益、灵活的投资项目。">
+<link rel="stylesheet" type="text/css" href="./realTimeStatistic_files/tool.css">
+<script src="./realTimeStatistic_files/odometer.min.js"></script>
+<style>
+.df_list_banner_wper {
+	height:45px;
+	background: none;
+}
+.cwdb {
+	background:#eeeeee;
+	padding:40px;
+}
+.finsec_title {
+text-align:left;
+height: 42px;
+line-height:42px;
+line-height:42px;
+border-bottom:2px solid #d7d7d7;
+}
+.finsec_title span {
+	display:inline-block;
+	width:220px;
+	text-align: center;
+	color:#666;
+	font-size:16px;
+	cursor:pointer;
+}
+.finsec_title .ftcur {
+height: 44px;
+}
+.tab1_title{ border-bottom:1px dashed #ccc; }
+.clearfix1 {
+	clear:both;
+	font-size:0;
+	height:0;
+	line-height:0;
+}
+.cw {
+	width:280px;
+	text-align:left;
+}
+.cw h4 {
+	font-size:14px;
+	vertical-align:middle;
+	color:#4b4b4b;
+	margin-bottom:5px;
+	font-weight:normal;
+	font-style:normal;
+}
+.cw p {
+	font-size:30px;
+	height:35px;
+	line-height:35px;
+	vertical-align:middle;
+	color:#ff7512;
+}
+i{ font-style:normal; }
+.tab_cont { background:#f0f0f0;}
+.tab_cont .tab_cont_son{ display:none; overflow:hidden;}
+.tab_cont1 .tab_cont1_left{ float:left; width:150px; overflow:hidden; padding-top:30px; height:140px;}
+.tab_cont1{ padding:0px 0 0 40px; width:950px; height:160px;}
+.tab_cont1 .name{ display: block; font-size:14px; color:#666; }
+.tab_cont1 .num{ font-family:Tahoma, Geneva, sans-serif; font-size:32px; color:#f7ab00; line-height:46px;}
+#num{ font-size:26px; line-height:60px; vertical-align:middle; }
+.tab_cont2_left{ width:350px; float:left; padding-top:56px;}
+.tab_cont2_left_name{ font-size:14px; color:#3f5367; padding-bottom:12px;} 
+.tab_cont2_left_num{ color:#f7ab00; font-size:36px; font-family:Tahoma, Geneva, sans-serif;}
+.tab_cont2_right{ width:575px; float:right;padding-top: 25px; position: relative;}
+.tab_cont2_r1{ display:inline-block; width:250px; height:190px;}
+.tab_cont2_r2{ display:inline-block; width:250px; height:190px; margin-left: 30px;}
+.tab_cont1 .tab_cont1_right{float:left; width:650px; height:175px; font-size:14px; color:#666; padding-left:40px; margin-top:10px;}
+.tab_cont1 .tab_cont1_right li{ width:155px; height:175px; float:left; display:inline-block; margin:0 30px; text-align:center; position:relative;}
+.tab_cont1 .tab_cont1_right .tab_cont1_right_name{ text-align:center; padding-top:10px; color:#000;}
+.tab_cont1_right_img{ text-align:center; padding-top:35px;height: 86px;}
+.tab_cont1_right_img1{ background:url(statics/home/images/circle1.png) center top no-repeat;}
+.tab_cont1_right_img2{ background:url(statics/home/images/circle2.png) center top no-repeat;}
+.tab_cont1_right_img3{ background:url(statics/home/images/circle3.png) center top no-repeat;}
+.one2_table{ width:280px; height:150px; overflow:hidden; border:1px solid #fff; margin-left:140px;}
+.tab_cont1_right_tip{ position:absolute; width:150px; height:42px; border:1px solid #f7ab00; top:110px; left:-10px; color:#333; line-height:22px; padding:10px; z-index:10; background:#fff0cd; display:none;}
+.tab_cont1_right_tip .tip-icon{ display:inline-block; width:12px; height:11px; overflow:hidden; position:absolute;background:url(../images/caiwu/tip-icon.gif) 0 0 no-repeat; top:-11px; left:71px;}
+.tab_cont1_right_tip b{ color:#ff6e00;}
+.odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-car .odometer-digit {
+  width: 20px;
+}
+.Platform{ padding:40px; } 
+.loanRemain{ height:400px; width:1120px; }
+.w100{ width:100%; }
+.whiteBG{ background:#FFF; }
+.grayBG{ background:#f5f5f5; }
+.Platform H3{ font-size:24px; height:24px; line-height:24px; vertical-align:middle; margin-bottom:20px; color:#333; text-align:left; }
+#loanRemain,#fullscale,#investmentNum,#singleNum,#balanceNum,#termNum{ width:530px; height:400px; }
+#daySum,#monthSum{ width:1120px; height:400px; }
+.pd40{ padding:40px; }
+.MdSum{ position:relative; }
+.MdSum h3{ position:absolute; right:50px; top:45px; z-index:999; }
+.MdSum h3 a{ display:block; width:100px; height:35px; border-radius:5px; border:1px solid #999; vertical-align:middle; line-height:35px; font-size:14px; float:left; margin-right:10px; }
+.MdSum h3 a:hover{ background:#ff7512; color:#FFFFFF; border:1px solid #ff7512; }
+#MdSum .Md_on{ background:#ff7512; color:#FFFFFF; border:1px solid #ff7512; } 
+.ftal{ padding-top:30px; padding-bottom:20px; font-size:12px; }
+.borderBrt{ border-right:1px solid #ecfaff; }.borderLft{ border-left:1px solid #ecfaff; }
+.ftal table{ background:#fff; width:100%; }
+.ftal td,.ftal th{ padding:15px 20px; /*border:1px solid #999;*/ text-align:center; font-size:14px; }
+.ftal th{ background:#14b2e2; color:#fff; }
+</style>
+</head>
+<body>
+<!-- header start -->
+<!--  <div class="zx_top_c_l"></div>
+
+  <div class="zx_top_c_r"></div>-->
+<div class="zxcf_top_wper" style=" width:100%; min-width:1200px; ">
+  <div class="zxcf_top px1200">
+    <div class="zxcf_top_l fl"> <span class="zxcf-tel mr10"><a href="javascript:;" class="orage" style="font-size:18px;">400-027-0101</a></span> <span class="zxcf-wb"><a href="http://weibo.com/zhongxingcaifu" target="_blank"></a></span> <span class="zxcf-wx"><a href=""></a><i></i></span> <span class="zxcf-app"><a href="http://www.whzxcf.com/page-app.shtml"></a><i></i></span>
+      <!--<span class="zxcf-qq"><a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4000270101&amp;f=1&amp;ty=1&amp;aty=0&amp;a=&amp;from=6" target="_blank"></a></span>-->
+    </div>
+    <div class="zxcf_top_r fr" id="zxcf_top_r">
+              <a href="http://www.whzxcf.com/member-login-index.shtml">登录</a> <span>|</span> <a href="http://www.whzxcf.com/member-register-index.shtml">免费注册</a> <span>|</span>      <a href="http://www.whzxcf.com/guide-safe3.shtml">风险备用金</a><span>|</span> <a href="http://www.whzxcf.com/guide-safe.shtml" target="_blank">风控保障</a><span>|</span> <a href="http://www.whzxcf.com/page-problem.shtml">帮助中心</a><span>|</span> <span id="zxqq"><a href="http://www.whzxcf.com/financial-index.shtml#">官方QQ群</a>
+      <div id="zxqq_t">
+        <p>投资交流群</p>
+        <p class="orage font14 mb5"><a href="http://shang.qq.com/wpa/qunwpa?idkey=6c9bc1d6489dfd787541c466413abe8989c900544a319bd58a64edca88678b14">422940552</a></p>
+        <p>投资VIP群</p>
+        <p class="orage font14"><a href="http://shang.qq.com/wpa/qunwpa?idkey=d194e536c81ae66d7da7d17b7b6a7054972df5ee510a63bf08d99ce3c3871bc2">223638794</a></p>
+      </div>
+      </span>
+      <!--<a href="http://shang.qq.com/wpa/qunwpa?idkey=6c9bc1d6489dfd787541c466413abe8989c900544a319bd58a64edca88678b14">投资交流群：422940552</a>
+
+      <span>|</span> <a href="#">投资VIP群：223638794</a>-->
+      <span>|</span> <a href="http://www.whzxcf.com/page-16aug.shtml">月刊</a> </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<!-- end top -->
+<div class="zxcf_nav_wper" style=" width:100%; min-width:1200px; ">
+  <div class="zxcf_nav px1200">
+    <div class="zxcf_nav_l fl"><a href="http://www.whzxcf.com/"><img src="./realTimeStatistic_files/zxcf_logo1.png" alt=""></a></div>
+	
+	<div class="zxcf_no fl">
+	  <ul id="nzxcf_no">
+	    <li><a href="http://www.whzxcf.com/septem#t4" target="_blank"><img src="./realTimeStatistic_files/zxcf_no3.gif" alt="" height="60"></a></li>
+	    <!--<li><a href="/Zf" target="_blank"><img src="/statics/home/images/zxcf_no1.png" alt="" height="60"></a></li>
+	    <li><a href="/page-birthday.shtml" target="_blank"><img src="/statics/home/images/zxcf_no2.png" alt="" height="60"></a></li>-->
+	  </ul>
+	</div>
+
+	
+    <div class="nzxcf_nav_r fr">
+	  <a href="http://www.whzxcf.com/septem" target="_blank" class="zxc1_02 mr30"><img src="./realTimeStatistic_files/an_new.gif" alt=""></a> 
+	  <a id="userCout" href="http://www.whzxcf.com/member-index-index.shtml">我的账户</a></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<!--<script>
+
+$(function(){	
+
+	var page = 0;
+
+	picTimer = setInterval(function(){
+
+		showPic(page);
+
+		page++;
+
+		if(page==2){
+
+			page=0;
+
+		};
+
+	},3000);
+
+	
+
+	function showPic(page){
+
+		$('.zxcf_nav_c1 a').eq(page).fadeIn("slow").siblings().fadeOut("slow");
+
+	}	
+
+})
+
+</script>
+
+-->
+<div class="zxcf_menu_wper" style=" width:100%; min-width:1200px; ">
+  <div class="zxcf_menu1 px1200" id="zxcf_menu">
+              <li class="         no_child                "> <a href="http://www.whzxcf.com/" class="acur">首            页</a>
+              </li>      <li class=" nav_item2
+                        "> <a href="http://www.whzxcf.com/invest" class="acur">我要投资</a>
+        <dl class="nav_item_dl" style="display:none;">
+            <dt><a href="http://www.whzxcf.com/financing">理财计划</a></dt><dt><a href="http://www.whzxcf.com/dcbao">定存宝</a></dt><dt><a href="http://www.whzxcf.com/invest">投资项目</a></dt><dt><a href="http://www.whzxcf.com/invest">债权转让</a></dt>          </dl>      </li>      <li class="         no_child                "> <a href="http://www.whzxcf.com/borrow-borrow_house.shtml" class="acur">我要借款</a>
+              </li>      <li class="         no_child                "> <a href="http://www.whzxcf.com/page-userguide.shtml" class="acur">新手指引</a>
+              </li>      <li class="         no_child                "> <a href="http://www.whzxcf.com/goods" class="acur">积分商城</a>
+              </li>      <li class="         no_child        zm_cura        "> <a href="./realTimeStatistic_files/realTimeStatistic.html" class="acur">实时财务</a>
+              </li>      <li class="         no_child                "> <a href="http://www.whzxcf.com/page-about.shtml" class="acur">关于我们</a>
+              </li>    <div class="clear"></div>
+  </div>
+</div>
+<!-- end  -->
+<script>
+
+	 //$('#nzxcf_no').totemticker({
+	 //	  row_height	:	'60px',
+	//	  interval		:	6000, 
+	//	  mousestop	:	true
+	//  });
+
+        $(function(){
+
+	    $('.zxcf-wx').mouseenter(function(){
+
+		    $(this).find('i').show();
+
+		});			
+
+	    $('.zxcf-wx').mouseleave(function(){
+
+		    $(this).find('i').hide();
+
+		});			
+
+	    $('.zxcf-app').mouseenter(function(){
+
+		    $(this).find('i').show();
+
+		});			
+
+	    $('.zxcf-app').mouseleave(function(){
+
+		    $(this).find('i').hide();
+
+		});	
+
+	    $('#zxqq').mouseenter(function(){
+		    $(this).find('div').stop().slideDown();
+		});			
+	    $('#zxqq').mouseleave(function(){
+		    $(this).find('div').stop().slideUp();
+		});	
+
+           
+
+        })
+
+    </script>
+
+<!--数据概览-->
+<div class="w100 whiteBG">
+  <div class="px1200">
+    <div class="Platform">
+      <h3>平台数据总览</h3>
+      <div class="cw cwl fl">
+        <h4>累计成交总金额（元）</h4>
+        <p class="yellow odometer odometer-auto-theme" id="snum1" old="00000000" new="234749005.00"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">4</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">4</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span></div></p>
+      </div>
+      <div class="cw cwc fl">
+        <h4>累计为投资人挣取收益（元）</h4>
+        <p class="yellow odometer odometer-auto-theme" id="snum3" old="00000000" new="7266825.33"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">6</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">6</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span><span class="odometer-formatting-mark odometer-radix-mark">.</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span></div></p>
+        <!--<p class="yellow odometer" id="snum3" old="00000000" new="7266825"></p>-->
+      </div>
+      <div class="cw cwc fl">
+        <h4>待回收金额（元）</h4>
+        <p class="yellow odometer odometer-auto-theme" id="snum4" old="00000000" new="80076647.65"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">6</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">6</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">4</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-formatting-mark odometer-radix-mark">.</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">6</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span></div></p>
+        <!--<p class="yellow odometer" id="snum3" old="00000000" new="7266825"></p>-->
+      </div>
+      <div class="cw cwr fr">
+        <h4>风险备用金余额（元）<a href="http://www.whzxcf.com/guide-safe3.shtml" class="ml20">查询</a></h4>
+        <p class="yellow odometer odometer-auto-theme" id="snum2" old="00000000" new="2,000,000"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></p>
+      </div>
+      <!--
+        <div class="cw cwr fr">
+        <h4>本月日期</h4>
+        <p class="yellow odometer" id="snum5" old="00000000" new=""></p>
+      </div>-->
+      <div class="clearfix1"></div>
+      <script type="text/javascript">	
+			$(function(){	
+			    $('#MdSum h3 a').click(function(){
+				   var oNum=$(this).index();
+				   $(this).addClass('Md_on').siblings().removeClass('Md_on');
+				   $('.volumeC').eq(oNum).show().siblings().hide();
+				})	
+				setTimeout(function(){
+					$('#snum4').html($('#snum4').attr("new"));
+					$('#snum1').html($('#snum1').attr("new"));
+					$('#snum2').html($('#snum2').attr("new"));
+					$('#snum3').html($('#snum3').attr("new"));
+                    //$('#snum5').html($('#snum5').attr("new"));
+				}, 100);
+			})
+	</script>
+    </div>
+  </div>
+</div>
+<!--数据概览-->
+<!--月日成交量-->
+<div class="w100 grayBG">
+  <div class="px1200">
+	  
+		<p style="text-align:left; padding-top:20px; padding-left:60px;">*平台于2015年3月18日上线，以下数据统计时间为2015年8月18日（新版上线）起。</p>
+    
+  </div>
+</div>
+<!--月日成交量-->
+<!--未来30天待收总额-->
+<!--<div class="w100 whiteBG">
+  <div class="px1200">
+    <div class="Platform" id="collectSum"></div>
+  </div>
+</div>-->
+<!--未来30天待收总额-->
+<!--贷款余额--><!--贷款余额-->
+<!--投资人数量/借款人数量-->
+
+<!--投资人数量/借款人数量-->
+<!--投资数据-->
+<div class="w100 grayBG">
+  <div class="px1200">
+    <div class="pd40">
+	  <h3 style=" color:#333; font-size:18px; font-size:24px; ">投资数据</h3>
+	  <div class="ftal">
+	    <table>
+  			<tbody>
+				<tr>
+  					<th width="180">数据项</th>
+  					<th width="320">数据</th>
+  					<th>说明</th>
+  				</tr>
+  				<tr>
+  					<td class="borderBrt">注册用户数量</td>
+  					<td class="borderBrt">20652</td>
+  					<td><p align="left">指自平台上线时间起，平台注册用户的总数。</p></td>
+  				</tr>
+  				<tr style="background:#ecfaff; ">
+  					<td class="borderBrt">人均累计投资额度</td>
+  					<td class="borderBrt">48005.93元</td>
+  					<td><p align="left">指自平台上线时间起，平台上各不相同的投资出借个体（人）平均成功出借的资金金额。人均投资额度=交易总额/投资人数量。</p></td>
+  				</tr>
+  				<tr>
+  					<td class="borderBrt">笔均投资额度</td>
+  					<td class="borderBrt">2050.14元</td>
+  					<td><p align="left">指自平台上线时间起，平台上单独每笔投资平均成功出借的资金金额。笔均投资额度=交易总额/交易总笔数。</p></td>
+  				</tr>
+  		   </tbody>
+		</table>
+	  </div>
+    </div>
+  </div>
+</div>
+<!--投资数据-->
+<!--投资数据-->
+<div class="w100 whiteBG">
+  <div class="px1200">
+    <div class="pd40">
+	  <h3 style=" color:#333; font-size:18px; font-size:24px; ">借款数据</h3>
+	  <div class="ftal">
+	    <table>
+  			<tbody>
+				<tr>
+  					<th width="180">数据项</th>
+  					<th width="320">数据</th>
+  					<th>说明</th>
+  				</tr>
+  				<tr>
+  					<td class="borderBrt borderLft">借款人数量</td>
+  					<td class="borderBrt">752</td>
+  					<td class="borderBrt"><p align="left ">指自平台上线时间起，平台实际撮合成功的所有借款项目中参与借款的各不同的独立个体（目前指自然人和组织机构）的总数。</p></td>
+  				</tr>
+  				<tr style="background:#ecfaff; ">
+  					<td class="borderBrt borderLft">人均借款额度</td>
+  					<td class="borderBrt">312166.23元</td>
+  					<td class="borderBrt"><p align="left">指自平台上线时间起，平台上各不相同的借款个体平均成功获得的资金金额。人均借款额度=交易总额/借款人数量。</p></td>
+  				</tr>
+  				<tr>
+  					<td class="borderBrt borderLft">笔均借款额度</td>
+  					<td class="borderBrt">96763.81元</td>
+  					<td class="borderBrt"><p align="left">指自平台上线时间起，平台上单独每笔投资平均成功出借的资金金额。笔均投资额度=交易总额/交易总笔数。</p></td>
+  				</tr>
+  				<tr style="background:#ecfaff; ">
+  					<td class="borderBrt borderLft">最大10户借款余额占比</td>
+  					<td class="borderBrt">14.48%</td>
+  					<td class="borderBrt"><p align="left">近3个月——贷款余额最大的前十名借款人的贷款余额与平台总贷款余额的比值</p></td>
+  				</tr>
+  				<tr>
+  					<td class="borderBrt borderLft">最大10户借款余额占比</td>
+  					<td class="borderBrt">16.79%</td>
+  					<td class="borderBrt"><p align="left">当前（全站）——贷款余额最大的前十名借款人的贷款余额与平台总贷款余额的比值</p></td>
+  				</tr>
+  				<tr style="background:#ecfaff; ">
+  					<td class="borderBrt borderLft">贷款余额</td>
+  					<td class="borderBrt">78922453.85元</td>
+  					<td class="borderBrt"><p align="left">指自平台上线时间起，自平台运营起始所有借款人还未偿还投资人投资本金的总金额（不包括投资回报的利息部分和逾期部分本金）。当期贷款余额=前期贷款余额+本期新增交易额-本金偿还贷款本金总额（还款总金额本金部分）-本期发生逾期总金额。</p></td>
+  				</tr>
+  		   </tbody>
+		</table>
+	  </div>
+    </div>
+  </div>
+</div>
+<!--投资数据-->
+<!--投资数据-->
+<div class="w100 grayBG">
+  <div class="px1200">
+    <div class="pd40">
+	  <h3 style=" color:#333; font-size:18px; font-size:24px; ">风控数据</h3>
+	  <div class="ftal">
+	    <table>
+  			<tbody>
+				<tr>
+  					<th width="180">数据项</th>
+  					<th width="320">数据</th>
+  					<th>说明</th>
+  				</tr>
+  				<tr>
+  					<td class="borderBrt">平台逾期率 </td>
+  					<td class="borderBrt">0.28%</td>
+  					<td><p align="left">平台逾期率=平台逾期总金额/平台交易总额</p></td>
+  				</tr>
+  				<tr style="background:#ecfaff; ">
+  					<td class="borderBrt">平台坏账率</td>
+  					<td class="borderBrt">0%</td>
+  					<td><p align="left">平台坏账率=坏账总金额/平台交易总额</p></td>
+  				</tr>
+  		   </tbody>
+		</table>
+	  </div>
+    </div>
+  </div>
+</div>
+<!--投资数据--
+<!--人均累计投资额度/人均累计借款额度-->
+<!--<div class="w100 grayBG">
+  <div class="px1200">
+    <div class="pd40 clearfix">
+      <div class="fl" id="investmentNum"></div>
+      <div class="fr" id="singleNum"></div>
+    </div>
+  </div>
+</div>-->
+<!--人均累计投资额度/人均累计借款额度-->
+<!--近30日借款期限分布/最大10户借款余额占比-->
+<!--<div class="w100 grayBG">
+  <div class="px1200">
+    <div class="pd40 clearfix">
+      <div class="fl" id="termNum"></div>
+      <div class="fr" id="balanceNum"></div>
+    </div>
+  </div>
+</div>-->
+<!--近30日借款期限分布/最大10户借款余额占比   -->
+<!--实时财务-->
+<div class="w100 financiald whiteBG">
+  <div class="px1200">
+    <div class="pd40">
+      <div class="clear">
+        <div class="finsec_title"> <span class="ftcur" get="1">30天内应回收借款</span> <span data="/financial-expiredlt.shtml">逾期30天内未还款列表</span> <span data="/financial-expiredgt.shtml">逾期30天以上未还款列表</span> <span data="/financial-expired.shtml">逾期已还款列表 </span>
+         <span data="/financial-earlyrepay.shtml">提前还款列表 </span></div>
+        <div class="finsec_tab_box pt20">
+          <div class="finsec_tab1" id="week"> <ul class="tab1_title tab1_titlebg">
+  <li>借款编号</li>
+  <li>借款标题</li>
+  <li>待还金额</li>
+  <li>应还日期</li>
+  <li>当前/总（期）状态</li>
+</ul>
+<ul class="tab1_title clear">
+    <li>1311</li>
+    <li><a href="http://www.whzxcf.com/invest-borrow-id-1311.shtml" title="【文山】奥迪借款11万">【文山】奥迪借款11…</a></li>
+    <li>￥10,337.78</li>
+    <li>2016-09-06</li>
+    <li>6/12期</li>
+  </ul><ul class="tab1_title clear">
+    <li>2027</li>
+    <li><a href="http://www.whzxcf.com/invest-borrow-id-2027.shtml" title="【武汉】房产周转60万第2标10万">【武汉】房产周转60…</a></li>
+    <li>￥101,426.78</li>
+    <li>2016-09-06</li>
+    <li>3/3期</li>
+  </ul><ul class="tab1_title clear">
+    <li>2632</li>
+    <li><a href="http://www.whzxcf.com/invest-borrow-id-2632.shtml" title="【武汉】房产周转120万第1标20万">【武汉】房产周转12…</a></li>
+    <li>￥2,989.46</li>
+    <li>2016-09-06</li>
+    <li>1/3期</li>
+  </ul><ul class="tab1_title clear">
+    <li>2634</li>
+    <li><a href="http://www.whzxcf.com/invest-borrow-id-2634.shtml" title="【文山】车辆周转4.3万">【文山】车辆周转4.…</a></li>
+    <li>￥43,755.49</li>
+    <li>2016-09-06</li>
+    <li>1/1期</li>
+  </ul><ul class="tab1_title clear">
+    <li>2635</li>
+    <li><a href="http://www.whzxcf.com/invest-borrow-id-2635.shtml" title="【武汉】房产周转120万第2标10万">【武汉】房产周转12…</a></li>
+    <li>￥1,494.76</li>
+    <li>2016-09-06</li>
+    <li>1/3期</li>
+  </ul><ul class="tab1_title clear">
+    <li>2636</li>
+    <li><a href="http://www.whzxcf.com/invest-borrow-id-2636.shtml" title="【武汉】房产周转30万第2标5万">【武汉】房产周转30…</a></li>
+    <li>￥798.33</li>
+    <li>2016-09-06</li>
+    <li>1/6期</li>
+  </ul><ul class="tab1_title clear">
+    <li>2279</li>
+    <li><a href="http://www.whzxcf.com/invest-borrow-id-2279.shtml" title="【武汉】房产周转60万第7标5万">【武汉】房产周转60…</a></li>
+    <li>￥764.36</li>
+    <li>2016-09-06</li>
+    <li>2/6期</li>
+  </ul><ul class="tab1_title clear">
+    <li>2278</li>
+    <li><a href="http://www.whzxcf.com/invest-borrow-id-2278.shtml" title="【文山】车辆周转4万">【文山】车辆周转4万</a></li>
+    <li>￥570.72</li>
+    <li>2016-09-06</li>
+    <li>2/3期</li>
+  </ul><ul class="tab1_title clear">
+    <li>2274</li>
+    <li><a href="http://www.whzxcf.com/invest-borrow-id-2274.shtml" title="【昆明】车辆周转5万">【昆明】车辆周转5万</a></li>
+    <li>￥713.40</li>
+    <li>2016-09-06</li>
+    <li>2/3期</li>
+  </ul><ul class="tab1_title clear">
+    <li>1543</li>
+    <li><a href="http://www.whzxcf.com/invest-borrow-id-1543.shtml" title="袁某房产抵押续50万第5标10万">袁某房产抵押续50万…</a></li>
+    <li>￥101,528.71</li>
+    <li>2016-09-06</li>
+    <li>5/5期</li>
+  </ul><div class="pagelink pagebar" style="text-align:right;" data="week">  948 条记录 1/95 页  <a href="http://www.whzxcf.com/financial-index.shtml?type=week&page=2">下一页</a>     &nbsp;<span class="current">1</span>&nbsp;<a href="http://www.whzxcf.com/financial-index.shtml?type=week&page=2">&nbsp;2&nbsp;</a>&nbsp;<a href="http://www.whzxcf.com/financial-index.shtml?type=week&page=3">&nbsp;3&nbsp;</a>&nbsp;<a href="http://www.whzxcf.com/financial-index.shtml?type=week&page=4">&nbsp;4&nbsp;</a>&nbsp;<a href="http://www.whzxcf.com/financial-index.shtml?type=week&page=5">&nbsp;5&nbsp;</a>  <a href="http://www.whzxcf.com/financial-index.shtml?type=week&page=6">下5页</a> <a href="http://www.whzxcf.com/financial-index.shtml?type=week&page=95">最后一页</a> </div>
+ </div>
+          <div class="finsec_tab1" style="display:none;" id="expiredlt"> </div>
+          <div class="finsec_tab1" style="display:none;" id="expiredgt"> </div>
+          <div class="finsec_tab1" style="display:none;" id="expired"> </div>
+          <div class="finsec_tab1" style="display:none;" id="earlyrepay"> </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--近30日借款期限分布/最大10户借款余额占比-->
+<!--笔均投资额度/笔均借款额度-->
+
+
+
+
+<!--  <div class="w100 whiteBG">
+    <div class="px1200">
+      <div class="Platform" id="singleNum"></div>
+    </div>  
+  </div>-->
+<!--笔均投资额度/笔均借款额度-->
+<div class="px1200"> </div>
+<!-- end detail curpage -->
+<script type="text/javascript">
+$(function(){
+    $('#daySum').highcharts({
+        chart: {
+            type: 'column',
+			marginTop: 80,
+            backgroundColor: 'rgba(245,245,245,245)'
+        },
+        title: {
+            text: '30天内的每日成交量 ',
+			style:{
+				'color':"#333",
+				'font-size':"24px",
+				'font-family':"微软雅黑"			
+			}
+        },
+        xAxis: {
+            categories: [
+                '08/08','08/09','08/10','08/11','08/12','08/13','08/14','08/15','08/16','08/17','08/18','08/19','08/20','08/21','08/22','08/23','08/24','08/25','08/26','08/27','08/28','08/29','08/30','08/31','09/01','09/02','09/03','09/04','09/05','09/06'            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '每日成交额 (元)'
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px; padding:0">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0;font-size:12px;">{series.name}(元): </td></tr>' +
+                '<tr><td style="padding:0px 10px 0 0"><b>{point.y:.1f}</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+		credits: {
+			enabled: false
+		},
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: '单日成交额',
+            data: [{y:1054672},{y:1350528},{y:1279300},{y:1161825},{y:1127956},{y:851969},{y:814200},{y:1483303},{y:901600},{y:1021200},{y:1183047},{y:1484719},{y:954798},{y:650883},{y:1569050},{y:896136},{y:727714},{y:1398700},{y:1232082},{y:705973},{y:635014},{y:1493169},{y:1130862},{y:1007360},{y:786803},{y:708237},{y:819346},{y:644585},{y:801569},{y:0}]
+        }]
+    });
+    $('#monthSum').highcharts({
+        chart: {
+            type: 'column',
+			marginTop: 80,
+            backgroundColor: 'rgba(245,245,245,245)'
+        },
+        title: {
+            text: '每月成交量 ',
+			style:{
+				'color':"#333",
+				'font-size':"24px",
+				'font-family':"微软雅黑"			
+			}
+        },
+        xAxis: {
+            categories: [
+                '2015年8月份',
+                '2015年9月份',
+                '2015年10月份',
+                '2015年11月份',
+                '2015年12月份',
+                '2016年1月份',
+                '2016年2月份',
+                '2016年3月份',
+                '2016年4月份',
+                '2016年5月份',
+                '2016年6月份',
+                '2016年7月份',
+                '2016年8月份',
+            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '每月成交额 (万元)'
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><p>',
+            pointFormat: '<span style="color:{series.color};padding:0; font-size:12px;">{series.name}: </span>' +
+                '<span style=" font-size:14px;"><b>{point.y:.1f}万元</b></span>',
+            footerFormat: '</p>',
+            shared: true,
+            useHTML: true
+        },
+		credits: {
+			enabled: false
+		},
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: '每月成交额',
+            data: [549,858,1130, 1406.55, 1383.1, 1473, 1232.19, 1663.51, 1521.57,1198.18,1960.99,2705.70,3239.00]
+        }]
+    });
+    $('#collectSum').highcharts({
+        chart: {
+            type: 'column',
+			marginTop: 80,
+        },
+        title: {
+            text: '未来30天待收总额',
+			style:{
+				'color':"#333",
+				'font-size':"24px",
+				'font-family':"微软雅黑"			
+			}
+        },
+        xAxis: {
+            categories: [
+               '2016-09-07','2016-09-08','2016-09-09','2016-09-10','2016-09-11','2016-09-12','2016-09-13','2016-09-14','2016-09-15','2016-09-16','2016-09-17','2016-09-18','2016-09-19','2016-09-20','2016-09-21','2016-09-22','2016-09-23','2016-09-24','2016-09-25','2016-09-26','2016-09-27','2016-09-28','2016-09-29','2016-09-30','2016-10-01','2016-10-02','2016-10-03','2016-10-04','2016-10-05','2016-10-06'            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '单日待收总金额 (万元)'
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><p>',
+            pointFormat: '<span style="color:{series.color};padding:0">{series.name}: </span>' +
+                '<span style="padding:0"><b>{point.y:.1f} 元</b></span>',
+            footerFormat: '</p>',
+            shared: true,
+            useHTML: true
+        },
+		credits: {
+			enabled: false
+		},
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: '待收总额',
+            data: [{y:584004.03},{y:1035827.62},{y:595540.37},{y:760285.5},{y:302754.83},{y:850333.25},{y:504778.14},{y:515618.3},{y:447601.8},{y:945396.35},{y:583355.57},{y:717257.2},{y:575859.22},{y:594218.49},{y:505425.68},{y:594026.63},{y:517782.75},{y:766891.92},{y:359364.07},{y:275476.4},{y:703930.47},{y:691472.68},{y:461682.18},{y:829081.95},{y:1618862.42},{y:698421.9},{y:305324.38},{y:521902.82},{y:414508.1},{y:127309.35}]
+        }]
+    });
+      $('#loanRemain').highcharts({
+        chart: {
+            type: 'column',
+			marginTop: 80,
+            backgroundColor: 'rgba(245,245,245,245)'
+        },
+        title: {
+            text: '贷款余额',
+			style:{
+				'color':"#333",
+				'font-size':"24px",
+				'font-family':"微软雅黑"			
+			}
+        },
+        xAxis: {
+            categories: [
+                '2015/09',
+                '2015/10',
+                '2015/11',
+                '2015/12',
+                '2016/01',
+                '2016/02',
+                '2016/03',
+                '2016/04',
+                '2016/05',
+                '2016/06',
+                '2016/07'
+            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '贷款余额 (万元)'
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><p>',
+            pointFormat: '<span style="color:{series.color};padding:0">{series.name}: </span>' +
+                '<span style="padding:0"><b>{point.y:.1f} 万元</b></span>',
+            footerFormat: '</p>',
+            shared: true,
+            useHTML: true
+        },
+		credits: {
+			enabled: false
+		},
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: '贷款余额',
+            data: [ 1841.78, 1712.53, 2482.23, 2770.402, 2878.95, 2869.79, 3878.83,4172.65,4757.86,5157.92,6400.84]
+        }]
+    });
+    $('#fullscale').highcharts({
+        chart: {
+            type: 'area',
+			marginTop: 80,
+            spacingBottom: 30,
+            backgroundColor: 'rgba(245,245,245,245)'
+        },
+        title: {
+            text: '平均满标时间',
+			style:{
+				'color':"#333",
+				'font-size':"24px",
+				'font-family':"微软雅黑"			
+			}
+        },
+        xAxis: {
+            categories: [
+                '3/07-3/13',
+                '3/14-3/20',
+                '3/21-3/27',
+                '3/28-4/03',
+                '4/04-4/10',
+                '4/11-4/17',
+                '4/18-4/24',
+                '4/25-5/01',				
+                '5/02-5/08',				
+                '5/09-5/15',				
+                '5/16-5/22',				
+                '5/23-5/29',				
+                '5/30-6/05',				
+                '6/06-6/12',				
+                '6/13-6/19',				
+                '6/20-6/26',				
+                '6/27-7/03',				
+                '7/04-7/10',				
+                '7/11-7/17',				
+                '7/18-7/24',				
+                '7/25-7/31',				
+                '8/01-8/07',				
+                '8/08-8/14',				
+                '8/15-8/21',				
+                '8/22-8/28'
+			]
+        },
+        yAxis: {
+            title: {
+                text: '平均满标时间 (秒)'
+            },
+            labels: {
+                formatter: function () {
+                    return this.value;
+                }
+            }
+        },
+        tooltip: {
+            formatter: function () {
+                return this.x + ':<br>平均满标时间 ' + this.y + '秒';
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        plotOptions: {
+            area: {
+                fillOpacity: 0.5
+            }
+        },
+        credits: {
+            enabled: false
+        },
+        series: [{
+            name: '该月份',
+            data: [ 1876, 838, 7635, 6510, 16679, 6445, 233, 140, 648, 61, 4359, 621, 1843, 4100, 2671, 38, 183, 9032, 9633, 12165, 3164,6140,4434,5041, 7393]
+        }]
+    });
+	    $('#peopleNum').highcharts({
+        chart: {
+            type: 'column',
+			marginTop: 80,
+        },
+        title: {
+            text: '投资人数量/借款人数量',
+			style:{
+				'color':"#333",
+				'font-size':"24px",
+				'font-family':"微软雅黑"			
+			}
+        },
+        xAxis: {
+            categories: [
+                '2015年08月',
+                '2015年09月',
+                '2015年10月',
+                '2015年11月',
+                '2015年12月',
+                '2016年01月',
+                '2016年02月',
+                '2016年03月',
+                '2016年04月',
+                '2016年05月',
+                '2016年06月',
+                '2016年07月',
+                '2016年08月',
+            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '人数'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><p>',
+            pointFormat: '<span style="color:{series.color};padding:0">{series.name}: </span>' +
+                '<span style="padding:0"><b>{point.y:.1f} 人</b><br></span>',
+            footerFormat: '</p>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: '投资人数量',
+            data: [375, 390, 536, 737,1449,568,361,564,582,913,794,935,1120]
+        }, {
+            name: '借款人数量',
+            data: [18, 21,40,50,45,36,41,78,60,125,107,156,215]
+        }]
+    });
+	    /*$('#investmentNum').highcharts({
+        chart: {
+            type: 'column',
+			marginTop: 80,
+            backgroundColor: 'rgba(245,245,245,245)'
+        },
+        title: {
+            text: '人均累计投资额度/人均累计借款额度',
+			style:{
+				'color':"#333",
+				'font-size':"24px",
+				'font-family':"微软雅黑"			
+			}
+        },
+        xAxis: {
+            categories: [
+                '16/03',
+                '16/02',
+                '16/01',
+                '15/12',
+                '15/11',
+                '15/10',
+                '15/09'
+            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '金额（元）'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} 元</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: '人均累计投资额度',
+            data: [50, 77, 108, 130, 144, 176, 135]
+        }, {
+            name: '人均累计借款额度',
+            data: [83, 78, 98, 93, 106, 84, 105]
+        }]
+    });
+	    $('#singleNum').highcharts({
+        chart: {
+            type: 'column',
+			marginTop: 80,
+            backgroundColor: 'rgba(245,245,245,245)'
+        },
+        title: {
+            text: '笔均投资额度/笔均借款额度',
+			style:{
+				'color':"#333",
+				'font-size':"24px",
+				'font-family':"微软雅黑"			
+			}
+        },
+        xAxis: {
+            categories: [
+                '16/03',
+                '16/02',
+                '16/01',
+                '15/12',
+                '15/11',
+                '15/10',
+                '15/09'
+            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '金额（元）'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} 元</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: '笔均投资额度',
+            data: [50, 77, 108, 130, 144, 176, 135]
+        }, {
+            name: '笔均借款额度',
+            data: [83, 78, 98, 93, 106, 84, 105]
+        }]
+    });
+        $('#termNum').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor: 'rgba(245,245,245,245)'
+            },
+			legend:{
+			    width:360,
+				x: 30,
+			},
+            title: {
+                text: '近30日借款期限分布',
+				style:{
+					'color':"#333",
+					'font-size':"24px",
+					'font-family':"微软雅黑"			
+				}
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+			credits: {
+				enabled: false
+			},
+            plotOptions: {
+                pie: {
+					innerSize:'150',
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            },
+            series: [{
+                name: '占比',
+                colorByPoint: true,
+                data: [{
+                    name: '1月标',
+                    y: 17.20,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: '2月标',
+                    y: 0.00,
+                }, {
+                    name: '3月标',
+                    y: 30.84                }, {
+                    name: '4月标',
+                    y: 0.00                }, {
+                    name: '5月标',
+                    y: 0.32                },{
+                    name: '6月标',
+                    y: 16.55                },{
+                    name: '大于6月',
+                    y: 35.06                }]
+            }]
+        });
+        $('#balanceNum').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor: 'rgba(245,245,245,245)'
+            },
+			legend:{
+			    width:360,
+				x: 36,
+			},
+            title: {
+                text: '最大10户借款余额占比',
+				style:{
+					'color':"#333",
+					'font-size':"24px",
+					'font-family':"微软雅黑"			
+				}
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+			credits: {
+				enabled: false
+			},
+            plotOptions: {
+                pie: {
+					innerSize:'150',
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            },
+            series: [{
+                name: '占比',
+                colorByPoint: true,
+                data: [{
+                    name: '第十名',
+                    y: 2.43
+                }, {
+                    name: '第九名',
+                    y: 2.55
+                }, {
+                    name: '第八名',
+                    y: 2.71
+                }, {
+                    name: '第七名',
+                    y: 2.92
+                }, {
+                    name: '第六名',
+                    y: 3.11
+                },  {
+                    name: '第五名',
+                    y: 3.98
+                },  {
+                    name: '第四名',
+                    y: 4.80
+                },  {
+                    name: '第三名',
+                    y: 5.13
+                },  {
+                    name: '第二名',
+                    y: 5.81
+                },  {
+                    name: '第一名',
+                    y: 9.41
+                }, {
+                    name: '其他',
+                    y: 57.15,
+                    sliced: true,
+                    selected: true
+                }]
+            }]
+        });*/
+})
+LD = new Loading(".financiald");
+$(".pagebar a").live("click",function(e){
+	LD.show();
+	e.preventDefault();
+	var id = $(this).parent("div").attr("data");
+	var url = $(this).attr("href");
+	getData(url,function(d){
+		LD.close();
+		if(d.status==1){
+			$("#"+id).html(d.message);
+		}else{
+			Mix.msg("数据获取出错",'fail',1);
+		}
+	});
+});
+$(".finsec_title span").click(function(){
+	var index=$(this).index(".finsec_title span"),
+		url=$(this).attr("data");
+	var _this=this;
+	if($(this).attr("get")){
+		$(this).addClass("ftcur").siblings("span").removeClass("ftcur");
+		$(".financiald .finsec_tab1:eq("+index+")").show().siblings('.finsec_tab1').hide();
+	}else{
+		LD.show();
+		getData(url,function(d){
+			LD.close();
+			if(d.status==1){
+				$(_this).attr("get",1);
+				$(_this).addClass("ftcur").siblings("span").removeClass("ftcur");
+				$(".financiald .finsec_tab1:eq("+index+")").html(d.message).show().siblings('.finsec_tab1').hide();
+			}else{
+				Mix.msg("数据获取出错",'fail',1);	
+			}
+		});
+	}
+})
+</script>
+<!--footer -->
+
+<div class="nzxcf-f1" style=" background:#35393b; width:100%; min-width:1200px; ">
+  <div class="nzxcf-f1-c px1200">
+    <div class="nzxcf-f1-c1">
+      <div class="fl w500">
+        <dl class="nfooter-link-item">
+          <dt>帮助中心</dt>
+          <dd><a href="http://www.whzxcf.com/page-userguide.shtml">新手指引</a></dd>
+          <dd><a href="http://www.whzxcf.com/cjwt-index.shtml">常见问题</a></dd>
+          <dd><a href="http://www.whzxcf.com/member-login-index.shtml">注册登录</a></dd>
+        </dl>
+        <dl class="nfooter-link-item">
+          <dt>理财相关</dt>
+          <dd><a href="http://www.whzxcf.com/invest-index.shtml">理财列表</a></dd>
+          <dd><a href="http://www.whzxcf.com/page-plecharge.shtml">收费标准</a></dd>
+          <dd><a href="http://www.whzxcf.com/tool-index.shtml">小工具箱</a></dd>
+        </dl>
+        <dl class="nfooter-link-item">
+          <dt>诚信安全</dt>
+          <dd><a href="http://www.whzxcf.com/guide-safe.shtml">安全保障</a></dd>
+          <dd><a href="./realTimeStatistic_files/realTimeStatistic.html">实时财务</a></dd>
+          <dd><a href="http://www.whzxcf.com/page-about.shtml#hzhb">合作伙伴</a></dd>
+        </dl>
+        <dl class="nfooter-link-item">
+          <dt>关于我们</dt>
+          <dd><a href="http://www.whzxcf.com/page-about.shtml#gltd">管理团队</a></dd>
+          <dd><a href="http://www.whzxcf.com/page-about.shtml#zxns">招贤纳士</a></dd>
+          <dd><a href="http://www.whzxcf.com/page-about.shtml#lxwm">联系我们</a></dd>
+        </dl>
+      </div>
+      <div class="fl w325">
+        <div class=" nzxcf-m1 fl">
+          <div class="nImg"><img src="./realTimeStatistic_files/wei1.png" width="91px;" height="91px;"></div>
+          <p>微信理财:hbzxcf</p>
+        </div>
+        <div class=" nzxcf-m2 fr">
+          <div class="nImg"><img src="./realTimeStatistic_files/wei2.png" width="91px;" height="91px;"></div>
+          <p>移动客户端下载</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="fr w270">
+        <dl class="nfooter-link-item1" style="padding-left:55px; ">
+          <dt>服务热线<span style="color:#7f7f7f; ">( 08:30-17:30 )</span></dt>
+          <dd style="font-size:30px; color:#ff7512; line-height:40px; vertical-align:middle; ">400-027-0101</dd>
+          <dd>客服邮箱:kefu@whzxcf.com</dd>
+          <dd>官方QQ交流群：422940552</dd>
+        </dl>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div class="nzxcf-f2" style=" background:#5d6163; width:100%; min-width:1200px; ">
+  <div class="px1200">
+    <div class="nzxcf-f2-c2">
+      <p><span>湖北中兴财富金融信息服务股份有限公司</span><span class="ml20">鄂ICP备14017254号-2</span></p>
+      <p>地址：湖北省武汉市武昌区中南路99号保利广场19楼</p>
+      <p class="copy">© 2014-2016 whzxcf, Inc. All rights reserved.</p>
+	  <p>市场有风险 投资需谨慎</p>
+      <ul style="display:inline-block; margin-bottom:20px;" class="mt10">
+        <li style="line-height:28px;"> <a href="http://www.anquan.org/authenticate/cert/?site=www.whzxcf.com&at=business" target="_blank">
+          <!--<script src="/statics/home/js/safe.js"></script>-->
+          <img border="0" src="./realTimeStatistic_files/hy_83x30.png" width="78"> </a> <a href="https://trustsealinfo.verisign.com/splash?form_file=fdf%2Fsplash.fdf&sap=&dn=www.whzxcf.com&zoneoff=&lang=zh_CN" target="_blank"> <img src="./realTimeStatistic_files/btn_2.png" width="58" height="34"> </a> <a href="http://webscan.360.cn/index/checkwebsite/url/www.whzxcf.com"> <img border="0" src="./realTimeStatistic_files/360.png" width="92" height="34"> </a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<div class="zxcf_yc">
+  <ul>
+    <!--<li><a href="http://www.zhongxincaifu.com/" class="zx_a1"></a></li>-->
+    <li class="">
+	  <a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4000270101&f=1&ty=1&aty=0&a=&from=6" class="zx_a2"></a>	  
+      <div class="nzx_qq">
+	    <div class="nzx_qq_con">
+		  <div class="nzx_qq_online clearfix">
+		    <span class="fl">在线客服QQ：</span>
+			<a class="fl" href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4000270101&f=1&ty=1&aty=0&a=&from=6">
+			  <img src="./realTimeStatistic_files/nzx_qq_online.png" width="74" height="22"></a>
+			
+		  </div>
+		  <div class="nzx_qq_quan" id="nzx_qq_quan">
+		    <p class="clearfix"><span class="fl">投资交流群：</span><a href="http://shang.qq.com/wpa/qunwpa?idkey=6c9bc1d6489dfd787541c466413abe8989c900544a319bd58a64edca88678b14" class="fl">422940552</a></p>
+		    <p class="clearfix"><span class="fl">投资VIP群：</span><a href="http://shang.qq.com/wpa/qunwpa?idkey=d194e536c81ae66d7da7d17b7b6a7054972df5ee510a63bf08d99ce3c3871bc2" class="fl">223638794</a></p>		    
+		  </div>
+		</div>	  
+	  </div>
+	</li>
+    <li id="zx_a3"><a href="" class="zx_a3" style="left:-130px; "></a>
+      <div class="zxTel0"><img src="./realTimeStatistic_files/zxTel0.png" width="130" height="41"></div>
+    </li>
+    <li><a href="http://www.whzxcf.com/tool" class="zx_a4"></a></li>
+    <!--<li><a href="/football" class="zx_a6" title="我要踢球"></a></li>-->
+    <!--<li><a href="/Prizedraw#April_CC4" class="zx_a5" title="我要抽奖"></a></li>-->
+  </ul>
+</div>
+<script>
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?aea1a2616a42294fcf3478354876581a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+
+$(function(){
+	$('.zx_a3').mouseenter(function(){
+		$('.zxTel0').stop().animate({left:"-130"});
+	});
+	$('.zx_a3').mouseleave(function(){
+		$('.zxTel0').stop().animate({left:"41"});
+	}); 
+	$('.zxTel0').mouseenter(function(){
+	    $('.zxTel0').stop().animate({left:"-130"});
+	}) 
+	$('.zxTel0').mouseleave(function(){
+	    $('.zxTel0').stop().animate({left:"41"});
+	}) 
+	$('.zx_a2').mouseenter(function(){
+		$('.nzx_qq').stop().animate({left:"-200"});
+	});
+	$('.zx_a2').mouseleave(function(){
+		$('.nzx_qq').stop().animate({left:"41"});
+	}); 
+	$('.nzx_qq').mouseenter(function(){
+	    $('.nzx_qq').stop().animate({left:"-200"});
+	}) 
+	$('.nzx_qq').mouseleave(function(){
+	    $('.nzx_qq').stop().animate({left:"41"});
+	}) 
+
+})
+
+</script><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><button type="button" id="cboxClose"></button></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>
